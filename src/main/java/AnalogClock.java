@@ -56,7 +56,7 @@ public class AnalogClock implements Runnable {
         gc.setStroke(Color.WHITE);
         gc.setLineWidth(3.0f);
         gc.strokeLine(midX, midY, xm, ym);
-        gc.setStroke(Color.rgb(220, 22, 10));
+        gc.setStroke(Color.rgb(66, 104, 255));
         gc.setLineWidth(5.0f);
         gc.strokeLine(midX, midY, xh, yh);
         gc.setStroke(Color.BLACK);
@@ -91,7 +91,7 @@ public class AnalogClock implements Runnable {
                               r * 0.95 * Math.cos(i * Math.PI / 180) + midX,
                               r * 0.95 * Math.sin(i * Math.PI / 180) + midY);
             } else {
-                gc.setStroke(Color.rgb(255, 22, 10));
+                gc.setStroke(Color.rgb(66, 104, 255));
                 gc.setLineWidth(2.0f);
                 gc.strokeLine(r * 0.87 * Math.cos(i * Math.PI / 180) + midX,
                               r * 0.87 * Math.sin(i * Math.PI / 180) + midY,
